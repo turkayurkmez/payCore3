@@ -88,6 +88,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "eshop.Catalog.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "eshop.Catalog.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eshop.Catalog.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eshop.Catalog.Application.dll": {}
+        }
+      },
+      "eshop.Catalog.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "eshop.Catalog.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eshop.Catalog.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eshop.Catalog.DataAccess.dll": {}
+        }
+      },
+      "eshop.Catalog.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/eshop.Catalog.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eshop.Catalog.Entities.dll": {}
+        }
       }
     }
   },
@@ -216,11 +252,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "eshop.Catalog.Application/1.0.0": {
+      "type": "project",
+      "path": "../eshop.Catalog.Application/eshop.Catalog.Application.csproj",
+      "msbuildProject": "../eshop.Catalog.Application/eshop.Catalog.Application.csproj"
+    },
+    "eshop.Catalog.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../eshop.Catalog.DataAccess/eshop.Catalog.DataAccess.csproj",
+      "msbuildProject": "../eshop.Catalog.DataAccess/eshop.Catalog.DataAccess.csproj"
+    },
+    "eshop.Catalog.Entities/1.0.0": {
+      "type": "project",
+      "path": "../eshop.Catalog.Entities/eshop.Catalog.Entities.csproj",
+      "msbuildProject": "../eshop.Catalog.Entities/eshop.Catalog.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "eshop.Catalog.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -255,7 +307,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\turka\\source\\repos\\Kurumsal\\PayCore\\Group 3\\Demo\\eshop\\Services\\Catalog\\eshop.Catalog.Application\\eshop.Catalog.Application.csproj": {
+              "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\PayCore\\Group 3\\Demo\\eshop\\Services\\Catalog\\eshop.Catalog.Application\\eshop.Catalog.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
