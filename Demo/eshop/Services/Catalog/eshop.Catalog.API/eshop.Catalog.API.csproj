@@ -18,6 +18,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\..\Common\eshop.MessageBus\eshop.MessageBus.csproj" />
 		<ProjectReference Include="..\eshop.Catalog.Application\eshop.Catalog.Application.csproj" />
 	</ItemGroup>
 

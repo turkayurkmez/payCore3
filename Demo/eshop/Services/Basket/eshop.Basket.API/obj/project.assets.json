@@ -422,6 +422,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "eshop.MessageBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/eshop.MessageBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eshop.MessageBus.dll": {}
+        }
       }
     }
   },
@@ -1059,13 +1069,19 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "eshop.MessageBus/1.0.0": {
+      "type": "project",
+      "path": "../../../Common/eshop.MessageBus/eshop.MessageBus.csproj",
+      "msbuildProject": "../../../Common/eshop.MessageBus/eshop.MessageBus.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "MassTransit >= 8.0.8",
       "MassTransit.RabbitMQ >= 8.0.8",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "eshop.MessageBus >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1100,7 +1116,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\turka\\source\\repos\\Kurumsal\\PayCore\\Group 3\\Demo\\eshop\\Common\\eshop.MessageBus\\eshop.MessageBus.csproj": {
+              "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\PayCore\\Group 3\\Demo\\eshop\\Common\\eshop.MessageBus\\eshop.MessageBus.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

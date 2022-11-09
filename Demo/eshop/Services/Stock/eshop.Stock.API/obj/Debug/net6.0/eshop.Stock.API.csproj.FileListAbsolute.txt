@@ -25,3 +25,10 @@ C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\e
 C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\obj\Debug\net6.0\eshop.Stock.API.pdb
 C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\obj\Debug\net6.0\eshop.Stock.API.genruntimeconfig.cache
 C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\obj\Debug\net6.0\ref\eshop.Stock.API.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\bin\Debug\net6.0\MassTransit.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\bin\Debug\net6.0\MassTransit.Abstractions.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\bin\Debug\net6.0\eshop.MessageBus.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Stock\eshop.Stock.API\bin\Debug\net6.0\eshop.MessageBus.pdb

@@ -49,6 +49,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GrpcTest", "GrpcTest", "{67
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.Test", "Grpc.Test\Grpc.Test.csproj", "{A998CE6D-7A22-4D46-83E0-CB327F1FC07A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{9CDECC54-2834-49CD-A135-71261548D9D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eshop.MessageBus", "Common\eshop.MessageBus\eshop.MessageBus.csproj", "{71924C91-49A1-4DAB-9F03-466C4F648045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +107,10 @@ Global
 		{A998CE6D-7A22-4D46-83E0-CB327F1FC07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A998CE6D-7A22-4D46-83E0-CB327F1FC07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A998CE6D-7A22-4D46-83E0-CB327F1FC07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71924C91-49A1-4DAB-9F03-466C4F648045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71924C91-49A1-4DAB-9F03-466C4F648045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71924C91-49A1-4DAB-9F03-466C4F648045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71924C91-49A1-4DAB-9F03-466C4F648045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +137,7 @@ Global
 		{AFAADE5A-CA83-4FF2-BEA3-4DD9E58D8DE9} = {8E69075E-4056-4CE4-B966-84E6E3A7A6E5}
 		{67153DDF-2B0C-468C-A276-9DCA1AABFD8B} = {F129E2AF-3566-40C9-93F1-40F17F9AEF27}
 		{A998CE6D-7A22-4D46-83E0-CB327F1FC07A} = {67153DDF-2B0C-468C-A276-9DCA1AABFD8B}
+		{71924C91-49A1-4DAB-9F03-466C4F648045} = {9CDECC54-2834-49CD-A135-71261548D9D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D338BE1B-4FD8-437F-9C0B-4E4050E7B434}
