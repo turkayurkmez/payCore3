@@ -31,3 +31,10 @@ C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog
 C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\obj\Debug\net6.0\eshop.Catalog.API.pdb
 C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\obj\Debug\net6.0\eshop.Catalog.API.genruntimeconfig.cache
 C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\obj\Debug\net6.0\ref\eshop.Catalog.API.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\bin\Debug\net6.0\Grpc.Net.Client.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+C:\Users\turka\source\repos\Kurumsal\PayCore\Group 3\Demo\eshop\Services\Catalog\eshop.Catalog.API\bin\Debug\net6.0\Grpc.Net.Common.dll
