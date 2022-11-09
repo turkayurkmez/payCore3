@@ -13,11 +13,12 @@ namespace eshop.Catalog.API.Services
             this.productService = productService;
         }
 
-        public override async Task<ProductMessage> GetProducts(EmptyParameter request, ServerCallContext context)
+        public override Task<ProductMessage> GetProducts(EmptyParameter request, ServerCallContext context)
         {
 
             var product = productService.GetProducts().FirstOrDefault();
-            return new ProductMessage { Name = product.Name, Price = 5 };
+            var message = new ProductMessage { Name = product.Name, Price = 5 };
+            return Task.FromResult(message);
         }
     }
 }
