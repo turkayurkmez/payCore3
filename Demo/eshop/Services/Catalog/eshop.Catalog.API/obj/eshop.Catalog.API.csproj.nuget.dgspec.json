@@ -59,6 +59,14 @@
               "target": "Package",
               "version": "[2.50.0, )"
             },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

@@ -1,6 +1,7 @@
 using eshop.Catalog.API.Services;
 using eshop.Catalog.Application;
 using eshop.Catalog.DataAccess.Repositories;
+using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,20 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddSingleton<IProductRepository, FakeProductRepository>();
 builder.Services.AddGrpc();
+
+builder.Services.AddMassTransit(configure =>
+{
+    configure.UsingRabbitMq((context, configurator) =>
+    {
+        configurator.Host("localhost", "/", h =>
+        {
+            h.Username("guest");
+            h.Password("guest");
+        });
+
+        configurator.ConfigureEndpoints(context);
+    });
+});
 
 var app = builder.Build();
 
