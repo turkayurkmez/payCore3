@@ -3,7 +3,7 @@ using MassTransit;
 
 namespace ehop.Order.API.Consumers
 {
-    public class StockConsumer : IConsumer<StockNotReservedEvent>, IConsumer<StockReservedEvent>
+    public class StockConsumer : IConsumer<StockNotReservedEvent>
     {
         private readonly ILogger<StockConsumer> _logger;
 
@@ -20,12 +20,12 @@ namespace ehop.Order.API.Consumers
             return Task.CompletedTask;
         }
 
-        public Task Consume(ConsumeContext<StockReservedEvent> context)
-        {
-            var order = new Models.Order();
-            order.OrderState = Models.OrderState.Compeleted;
-            _logger.LogInformation($"{context.Message.OrderId}'li sipariş tamamlandı. {order.OrderState} ");
-            return Task.CompletedTask;
-        }
+        //public Task Consume(ConsumeContext<StockReservedEvent> context)
+        //{
+        //    var order = new Models.Order();
+        //    order.OrderState = Models.OrderState.Compeleted;
+        //    _logger.LogInformation($"{context.Message.OrderId}'li sipariş tamamlandı. {order.OrderState} ");
+        //    return Task.CompletedTask;
+        //}
     }
 }

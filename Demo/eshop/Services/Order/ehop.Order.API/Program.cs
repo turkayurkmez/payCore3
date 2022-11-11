@@ -15,6 +15,7 @@ builder.Services.AddMassTransit(configure =>
 {
     configure.AddConsumer<ProductPriceChangedConsumer>();
     configure.AddConsumer<StockConsumer>();
+    configure.AddConsumer<PaymentEventsConsumer>();
     configure.UsingRabbitMq((context, configurator) =>
     {
         configurator.Host("localhost", "/", h =>

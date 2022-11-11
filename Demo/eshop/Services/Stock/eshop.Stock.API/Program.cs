@@ -24,6 +24,8 @@ builder.Services.AddMassTransit(configure =>
         //  configurator.ReceiveEndpoint(nameof(ProductPriceChangedEvent), e => e.ConfigureConsumer<ProductPriceChangedConsumer>(context));
 
         configurator.ConfigureEndpoints(context);
+
+        //OrderCreatedConsumer --> endpoint
     });
 });
 

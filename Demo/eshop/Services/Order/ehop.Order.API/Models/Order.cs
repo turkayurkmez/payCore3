@@ -4,7 +4,7 @@
     public enum OrderState
     {
         Pending,
-        Compeleted,
+        Completed,
         Failed,
         Canceled
     }
